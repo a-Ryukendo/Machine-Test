@@ -246,30 +246,6 @@ Machine_Test/
 ### 5. Sample Data
 A sample CSV file (`sample_data.csv`) is included in the project root for testing purposes.
 
-## 🔧 Development
-
-### Backend Development
-```bash
-cd backend
-npm run dev  # Starts with nodemon for auto-reload
-```
-
-### Frontend Development
-```bash
-cd frontend
-npm run dev  # Starts Vite dev server
-```
-
-### Building for Production
-```bash
-# Backend
-cd backend
-npm start
-
-# Frontend
-cd frontend
-npm run build
-```
 
 ## 🐛 Troubleshooting
 
@@ -300,42 +276,3 @@ npm run build
 5. **Port Already in Use**
    - Check if ports 5000 (backend) or 5173 (frontend) are already in use
    - Kill existing processes or change ports in .env files
-
-### Getting Help
-- Check the browser console for frontend errors
-- Check the terminal for backend errors
-- Ensure all environment variables are properly set
-
-## 📝 License
-
-This project is created for machine test purposes.
-
-## 👨‍💻 Author
-
-MERN Stack Developer Machine Test
-
-## 📋 Deliverables Checklist
-
-- ✅ **Source Code**: Complete MERN stack application with all features
-- ✅ **README**: Comprehensive setup and execution instructions
-- ⏳ **Video Demonstration**: Working video demonstration (to be completed by user)
-- ⏳ **Google Drive Link**: Video hosted on Google Drive (to be completed by user)
-
-## 🎯 Project Status
-
-**Status**: ✅ Complete and Ready for Demo
-
-**Features Implemented**:
-- ✅ Admin authentication with JWT
-- ✅ Agent management (CRUD operations)
-- ✅ File upload and distribution system
-- ✅ Responsive UI with navigation
-- ✅ Database integration
-- ✅ Error handling and validation
-- ✅ Sample data for testing
-
-**Ready for Video Demonstration**:
-- All features are functional and ready for recording
-- Sample data file included for testing
-- Clear navigation and user interface
-- Comprehensive error handling 
