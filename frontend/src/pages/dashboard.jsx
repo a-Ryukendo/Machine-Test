@@ -28,10 +28,7 @@ function DashboardPage() {
         </div>
       </div>
 
-      <section className="dashboard-summary">
-        <h2>Quick Overview</h2>
-        <p>This is where you'd put widgets or charts summarizing data.</p>
-      </section>
+
     </div>
   );
 }
